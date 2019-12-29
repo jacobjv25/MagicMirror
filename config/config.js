@@ -88,6 +88,11 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
+			{
+				module: 'MMM-MirrorMirrorOnTheWall',
+				position: "middle_center",
+				config: {}
+			},
 	]
 
 };
