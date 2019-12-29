@@ -33,7 +33,7 @@ Module.register("compliments", {
 				"Jake loves Lauren",
 				"Good morning, handsome!",
 				"Enjoy your day!",
-				"How was your sleep?"
+				"How was your sleep?",
 				"Today is going to be great!",
 				"Go get that bread!",
 				"Believe in your flyness…conquer your shyness.",
@@ -62,7 +62,7 @@ Module.register("compliments", {
 				"Weird hat",
 				"Hello, beauty!",
 				"You look sexy!",
-				"Looking good today!"
+				"Looking good today!",
 				"Looking good today!",
 				"The world is our office",
 				"Everything you do in life stems from \neither fear or love",
@@ -83,7 +83,7 @@ Module.register("compliments", {
 				"Jake loves Lauren",
 				"Wow, you look hot!",
 				"You look nice!",
-				"Hi, sexy!"
+				"Hi, sexy!",
 				"Hi, sexy!",
 				"People always say that you can’t please everybody. \nI think that’s a cop-out. Why not attempt it? \n‘Cause think of all the people that you will please if you try.",
 				"Let's be like water",
