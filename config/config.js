@@ -39,13 +39,21 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Calendar",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
-						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
+                        url: 'http://localhost:8080/modules/calendars/home.ics',
+                        symbol: 'calendar',
+                        color: '#3371FF'   // Assign color
+                },
+                // "Calendar 2"
+                {
+                        url: 'http://localhost:8080/modules/calendars/c8bfee39053cffd57bbd647eb8e694af983dd36f98b23c0883a7ab5d36287f33.ics',
+                        symbol: 'calendar',
+                        color: '#FF0000'  // Assign color
+                }
 				]
 			}
 		},
