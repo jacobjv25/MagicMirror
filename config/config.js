@@ -164,7 +164,7 @@ var config = {
 					{
 						title: "New York Times",
 						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-						customLogo: "NYT_logo_rss_250x40.png"
+						customLogo: "800px-The_New_York_Times_logo.png"
 					},
 					{
 						title: "USA Today",
@@ -174,7 +174,7 @@ var config = {
 					{
 						title: "BBC World News",
 						url: "http://feeds.bbci.co.uk/news/world/rss.xml#",
-						customLogo: "bbc_news_120x60.gif"
+						customLogo: "BBC_News.svg"
 					}
 						]
 				}
