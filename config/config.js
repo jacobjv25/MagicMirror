@@ -80,22 +80,22 @@ var config = {
 				appid: "e63b67657f31e133d336f9c983aa22a1"
 			}
 		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				broadcastNewsFeeds: true,
-				broadcastNewsUpdates: true
-			}
-		},
+		// {
+		// 	module: "newsfeed",
+		// 	position: "bottom_bar",
+		// 	config: {
+		// 		feeds: [
+		// 			{
+		// 				title: "New York Times",
+		// 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+		// 			}
+		// 		],
+		// 		showSourceTitle: true,
+		// 		showPublishDate: true,
+		// 		broadcastNewsFeeds: true,
+		// 		broadcastNewsUpdates: true
+		// 	}
+		// },
 			{
 				module: 'MMM-MirrorMirrorOnTheWall',
 				position: "middle_center",
@@ -154,6 +154,31 @@ var config = {
 					view: 'textAndIcon',
 				},
 			},
+			{
+				disabled: false,
+				module: "MMM-NewsFeedTicker",
+				position: "bottom_bar",
+				//classes: "day_scheduler",
+				config: {
+					feeds: [
+					{
+						title: "New York Times",
+						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+						customLogo: "NYT_logo_rss_250x40.png"
+					},
+					{
+						title: "USA Today",
+						url: "http://rssfeeds.usatoday.com/UsatodaycomNation-TopStories",
+						customLogo: "RSS_Syndication_Logo-USATN.png"
+					},
+					{
+						title: "BBC World News",
+						url: "http://feeds.bbci.co.uk/news/world/rss.xml#",
+						customLogo: "bbc_news_120x60.gif"
+					}
+						]
+				}
+				},
 	]
 
 };
