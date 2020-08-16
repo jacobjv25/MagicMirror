@@ -126,15 +126,15 @@ var config = {
 				position: 'top_left',
 				header: "Network Scan",
 				config:{
-					devices: [
-    						{ macAddress: "2c:d0:2d:ec:d2:ea", name: "CVO Router", icon: "wifi" },    // 192.168.50.14
-   							{ macAddress: "68:37:e9:95:58:a7", name: "Alexa", icon: "female " },    // 192.168.50.154
-    						{ macAddress: "68:d9:3c:84:08:a4", name: "Apple", icon: "mobile" },    // 192.168.50.175
-    						{ macAddress: "d4:5d:64:c5:c5:38", name: "Pi", icon: "Server" },    // 192.168.50.1
-    						{ macAddress: "28:16:a8:15:3e:41", name: "Xbox", icon: "gamepad" },    // 192.168.50.22
-    						{ macAddress: "c8:d0:83:a9:81:a8", name: "iPhone", icon: "mobile" },    // 192.168.50.239
-    						{ macAddress: "8c:85:90:86:66:bc", name: "Apple", icon: "mobile" },    // 192.168.50.251
-					],
+					//devices: [
+    						//{ macAddress: "2c:d0:2d:ec:d2:ea", name: "CVO Router", icon: "wifi" },    // 192.168.50.14
+   						//{ macAddress: "68:37:e9:95:58:a7", name: "Alexa", icon: "female " },    // 192.168.50.154
+    						//{ macAddress: "68:d9:3c:84:08:a4", name: "Apple", icon: "mobile" },    // 192.168.50.175
+    						//{ macAddress: "d4:5d:64:c5:c5:38", name: "Pi", icon: "Server" },    // 192.168.50.1
+    						//{ macAddress: "28:16:a8:15:3e:41", name: "Xbox", icon: "gamepad" },    // 192.168.50.22
+    						//{ macAddress: "c8:d0:83:a9:81:a8", name: "iPhone", icon: "mobile" },    // 192.168.50.239
+    						//{ macAddress: "8c:85:90:86:66:bc", name: "Apple", icon: "mobile" },    // 192.168.50.251
+					//],
 					showUnknown: true,
 					showOffline: true,
 					keepAlive: 300,
@@ -143,8 +143,8 @@ var config = {
 			},
 			{
 				module: 'MMM-SystemStats',
-				position: 'top_center', // This can be any of the regions.
-				// classes: 'small dimmed', // Add your own styling. OPTIONAL.
+				position: 'bottom_left', // This can be any of the regions.
+				classes: 'small dimmed', // Add your own styling. OPTIONAL.
 				header: 'System Stats', // Set the header text OPTIONAL
 				config: {
 					updateInterval: 10000, // every 10 seconds
