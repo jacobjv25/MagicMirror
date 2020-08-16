@@ -1,5 +1,7 @@
 # Various Node ignoramuses.
 
+core
+
 logs
 *.log
 npm-debug.log*

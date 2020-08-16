@@ -101,6 +101,26 @@ var config = {
 				position: "middle_center",
 				config: {}
 			},
+			{
+		    module: 'phone_notification',
+            position: 'bottom_right',
+            header: 'Phone Notifications',
+            config:{
+                accessToken: 'o.6OcST7FUmsmJnvG2lx64EJN5uDZHvLOk',
+                numberOfNotifications: 5,
+                displayNotificationIcon: true,
+                displayMessage: true,
+                displayCount: false,
+                alert: false,
+                fade: true,
+				maxCharacters: 50,
+				useEncryption: true,
+				key: {
+					password: 'kx*w3ZImap%!8esk$#!2QHyLUC$#SkGzf8KIYzKn',
+					ident: 'ujA9gV514TY'
+				}
+            }
+	},
 	]
 
 };
