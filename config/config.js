@@ -102,9 +102,9 @@ var config = {
 				config: {}
 			},
 			{
-		    module: 'phone_notification',
-            position: 'bottom_right',
-            header: 'Phone Notifications',
+		    		module: 'phone_notification',
+            			position: 'bottom_right',
+            			header: 'Phone Notifications',
             config:{
                 accessToken: 'o.6OcST7FUmsmJnvG2lx64EJN5uDZHvLOk',
                 numberOfNotifications: 5,
@@ -119,13 +119,25 @@ var config = {
 					password: 'kx*w3ZImap%!8esk$#!2QHyLUC$#SkGzf8KIYzKn',
 					ident: 'ujA9gV514TY'
 				}
-			}
+			},
 			{
 				module: 'MMM-NetworkScanner',
 				position: 'bottom_left',
 				header: "Network Scan",
 				config:{
-					showUnknown: true
+					devices: [
+    						{ macAddress: "2c:d0:2d:ec:d2:ea", name: "CVO Router", icon: "wifi" },    // 192.168.50.14
+   						{ macAddress: "68:37:e9:95:58:a7", name: "Alexa", icon: "female " },    // 192.168.50.154
+    						{ macAddress: "68:d9:3c:84:08:a4", name: "(Unknown)", icon: "mobile" },    // 192.168.50.175
+    						{ macAddress: "d4:5d:64:c5:c5:38", name: "Pi", icon: "Server" },    // 192.168.50.1
+    						{ macAddress: "28:16:a8:15:3e:41", name: "Xbox", icon: "gamepad" },    // 192.168.50.22
+    						{ macAddress: "c8:d0:83:a9:81:a8", name: "iPhone", icon: "mobile" },    // 192.168.50.239
+    						{ macAddress: "8c:85:90:86:66:bc", name: "Apple", icon: "mobile" },    // 192.168.50.251
+					],
+					showUnknown: true,
+					showOffline: true,
+					keepAlive: 300,
+					updateInterval: 5
 				}
 			}
 	},
