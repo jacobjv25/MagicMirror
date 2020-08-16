@@ -123,7 +123,7 @@ var config = {
 			},
 			{
 				module: 'MMM-NetworkScanner',
-				position: 'bottom_left',
+				position: 'top_left',
 				header: "Network Scan",
 				config:{
 					devices: [
@@ -140,6 +140,19 @@ var config = {
 					keepAlive: 300,
 					updateInterval: 5
 				}
+			},
+			{
+				module: 'MMM-SystemStats',
+				position: 'top_center', // This can be any of the regions.
+				// classes: 'small dimmed', // Add your own styling. OPTIONAL.
+				header: 'System Stats', // Set the header text OPTIONAL
+				config: {
+					updateInterval: 10000, // every 10 seconds
+					align: 'right', // align labels
+					//header: 'System Stats', // This is optional
+					units: 'metric', // default, metric, imperial
+					view: 'textAndIcon',
+				},
 			},
 	]
 
