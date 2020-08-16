@@ -119,7 +119,15 @@ var config = {
 					password: 'kx*w3ZImap%!8esk$#!2QHyLUC$#SkGzf8KIYzKn',
 					ident: 'ujA9gV514TY'
 				}
-            }
+			}
+			{
+				module: 'MMM-NetworkScanner',
+				position: 'bottom_left',
+				header: "Network Scan",
+				config:{
+					showUnknown: true
+				}
+			}
 	},
 	]
 
